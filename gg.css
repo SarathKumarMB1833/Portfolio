@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    width: 95%;
+    margin:auto;
+}
+.docimg{
+    background-image:url("../image/image\ 23.png");
+    height : 600px;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 50px;
+    position: relative;
+}
+.hometext{
+    top : 25%;
+    margin-left: 30px;
+    position: absolute;
+}
+.hometext h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.docimg p{
+    font-size: 15px;
+    line-height: 15px;
+}
+.toprow{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.toprow input{
+    height : 30px;
+    width : 300px;
+}
+.button button{
+    background-color: #17c1a3;
+    border: none;
+    border-radius: 6px;
+    position: absolute;
+}
+.inputfield{
+    box-shadow: 0px 20px 10px rgba(0,0,0,0.199);
+    width: 1000px;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    height: 200px;
+    left:7%;
+    top:80%;
+    border-radius: 6px;
+    
+}
+.toprow button{
+    width:305px;
+    height: 40px;
+    border:none;
+    border-radius: 6px;
+    background-color: #17C1A3;
+    color: white;
+}
+.toprow select{
+    height : 40px;
+    width : 305px;
+}
+.topline{
+    margin-top: 200px;
+}
